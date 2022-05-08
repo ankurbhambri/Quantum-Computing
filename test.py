@@ -4,7 +4,7 @@ from qiskit.visualization import plot_histogram
 from qiskit.tools.monitor import job_monitor
 
 
-access_key = '2c04a06673188b07daa25acebe9e66a61c63c762063a84c6736cc99381a68223583433c7ec8151c952c4ed35741c3f2b7b7a7076ba354ca719565837b70c98ac'
+access_key = 'IBM access key'
 
 # (2, 2) means first register 2 quibits and second 2 clasical bits
 circuit = QuantumCircuit(2, 2)
