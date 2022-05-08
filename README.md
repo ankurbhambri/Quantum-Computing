@@ -16,5 +16,5 @@
 }
 ```
 
-# Quantum Computin algorith based in qiskit python library
+# Quantum Computing algorithms and logical gates based on qiskit python library
 
