@@ -2,9 +2,12 @@ from numpy import quantile
 from qiskit import *
 from qiskit.visualization import plot_histogram
 from qiskit.tools.monitor import job_monitor
+import json
 
 
-access_key = 'IBM access key'
+key_data = json.load(open('key.json'))
+
+access_key = key_data.get('IBM_KEY', None)
 
 # (2, 2) means first register 2 quibits and second 2 clasical bits
 circuit = QuantumCircuit(2, 2)
